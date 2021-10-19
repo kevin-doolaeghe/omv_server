@@ -55,3 +55,9 @@ apt update && apt upgrade
 ```
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | bash
 ```
+
+## Installation du module `omv-extras`
+
+```
+https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install
+```
