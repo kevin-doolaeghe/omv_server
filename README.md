@@ -66,6 +66,9 @@ Le script à exécuter est disponible [ici](https://github.com/OpenMediaVault-Pl
 * [Installation d'Apache Guacamole](https://www.wundertech.net/how-to-setup-apache-guacamole-on-a-raspberry-pi/)
 * [Pi-hole | Bloquer les publicités](https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/)
 * [Heimdall | Organiser les applications](https://hub.docker.com/r/linuxserver/heimdall)
+* [Plex | Media center](https://hub.docker.com/r/linuxserver/plex)
+* [Jellyfin | Media center](https://hub.docker.com/r/jellyfin/jellyfin)
+* [Résolution du problème de lecture sous Jellyfin](https://github.com/jellyfin/jellyfin/issues/2694)
 
 Les différentes applications peuvent être installées dans des conteneurs Docker directement sur OMV.  
 La gestion des stacks et des conteneurs est effectuées depuis l'utilitaire [Portainer](https://www.portainer.io/).
