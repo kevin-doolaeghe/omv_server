@@ -58,4 +58,4 @@ wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/maste
 
 ## Installation du module `omv-extras`
 
-[Lien](https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install)
+Le script à exécuter est disponible [ici](https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install).
