@@ -9,7 +9,7 @@ Kevin Doolaeghe
 * [Github repository ⇢ OpenMediaVault](https://github.com/openmediavault/openmediavault)
 * [Github repository ⇢ OMV-Extras](https://github.com/OpenMediaVault-Plugin-Developers/packages)
 * [Github repository ⇢ OMV-Install-Script](https://github.com/OpenMediaVault-Plugin-Developers/installScript)
-* [OMV 6](https://forum.openmediavault.org/index.php?thread/39490-install-omv6-on-debian-11-bullseye/)
+* [OMV 6 Installation](https://forum.openmediavault.org/index.php?thread/39490-install-omv6-on-debian-11-bullseye/)
 * [Apache Guacamole (remote access manager)](https://guacamole.apache.org/)
 * [Apache Guacamole installation process](https://www.wundertech.net/how-to-setup-apache-guacamole-on-a-raspberry-pi/)
 * [Pi-hole (Advertisement blocker)](https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/)
