@@ -14,7 +14,7 @@ Kevin Doolaeghe
 * [Apache Guacamole installation process](https://www.wundertech.net/how-to-setup-apache-guacamole-on-a-raspberry-pi/)
 * [Pi-hole (Advertisement blocker)](https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/)
 * [Heimdall (Application dashboard)](https://hub.docker.com/r/linuxserver/heimdall)
-* [Dashy](https://dashy.to/)
+* [Dashy (Application dashboard)](https://dashy.to/)
 * [Plex (Media center)](https://hub.docker.com/r/linuxserver/plex)
 * [Jellyfin (Media center)](https://hub.docker.com/r/jellyfin/jellyfin)
 * [Portainer (Docker containers management)](https://www.portainer.io/)
