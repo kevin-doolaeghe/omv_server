@@ -1,40 +1,35 @@
-# OpenMediaVault installation on Raspberry Pi 4
+# OpenMediaVault - The open network attached storage solution
 
-## Auteur
+:triangular_flag_on_post: **OpenMediaVault** setup.
 
-Kevin Doolaeghe
+## Author
 
-## References
+**Kevin Doolaeghe**
 
-* [Github repository ⇢ OpenMediaVault](https://github.com/openmediavault/openmediavault)
-* [Github repository ⇢ OMV-Extras](https://github.com/OpenMediaVault-Plugin-Developers/packages)
-* [Github repository ⇢ OMV-Install-Script](https://github.com/OpenMediaVault-Plugin-Developers/installScript)
-* [OMV 6 Installation](https://forum.openmediavault.org/index.php?thread/39490-install-omv6-on-debian-11-bullseye/)
-* [Apache Guacamole (Remote access manager)](https://guacamole.apache.org/)
-* [Apache Guacamole installation process](https://www.wundertech.net/how-to-setup-apache-guacamole-on-a-raspberry-pi/)
-* [Pi-hole (Advertisement blocker)](https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/)
-* [Heimdall (Application dashboard)](https://hub.docker.com/r/linuxserver/heimdall)
-* [Dashy (Application dashboard)](https://dashy.to/)
-* [Plex (Media center)](https://hub.docker.com/r/linuxserver/plex)
-* [Jellyfin (Media center)](https://hub.docker.com/r/jellyfin/jellyfin)
-* [Portainer (Docker containers management)](https://www.portainer.io/)
+## Setup
 
-## Installation
+1. Burn the *Raspberry Pi OS 64bit (Lite)* image using *Raspberry Pi OS Imager* software. 
 
-* Update system packages :
+:warning: The *Legacy* version must be installed because *Debian 12* isn't supported yet.
+
+2. Update and upgrade *Raspberry Pi OS* using the following commands :
+
 ```
-sudo apt update ; sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo reboot
 ```
 
-* Download and launch OMV installation's script :
+3. Download installation script and install OMV :
+
 ```
-sudo wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | sudo bash
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 ```
 
-* Install OMV-Extras module :
-```
-sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | sudo bash
-```
+4. Login to the web interface using default credentials :
+
+* Username : `admin`
+* Password : `openmediavault`
 
 ## Application templates (`docker-compose`) for Portainer
 
@@ -155,3 +150,19 @@ services:
     restart: unless-stopped
     privileged: true
 ```
+
+## References
+
+* [Raspberry Pi 4 - OMV 6 Setup](https://wiki.omv-extras.org/doku.php?id=omv6:raspberry_pi_install)
+* [Github repository ⇢ OpenMediaVault](https://github.com/openmediavault/openmediavault)
+* [Github repository ⇢ OMV-Extras](https://github.com/OpenMediaVault-Plugin-Developers/packages)
+* [Github repository ⇢ OMV-Install-Script](https://github.com/OpenMediaVault-Plugin-Developers/installScript)
+* [OMV 6 Installation](https://forum.openmediavault.org/index.php?thread/39490-install-omv6-on-debian-11-bullseye/)
+* [Apache Guacamole (Remote access manager)](https://guacamole.apache.org/)
+* [Apache Guacamole installation process](https://www.wundertech.net/how-to-setup-apache-guacamole-on-a-raspberry-pi/)
+* [Pi-hole (Advertisement blocker)](https://www.it-connect.fr/pi-hole-un-bloqueur-de-pubs-pour-tout-votre-reseau/)
+* [Heimdall (Application dashboard)](https://hub.docker.com/r/linuxserver/heimdall)
+* [Dashy (Application dashboard)](https://dashy.to/)
+* [Plex (Media center)](https://hub.docker.com/r/linuxserver/plex)
+* [Jellyfin (Media center)](https://hub.docker.com/r/jellyfin/jellyfin)
+* [Portainer (Docker containers management)](https://www.portainer.io/)
